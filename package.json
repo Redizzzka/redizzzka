@@ -1,0 +1,27 @@
+{
+  "name": "przctice-js",
+  "version": "1.0.0",
+  "description": "Alexe first app on pure js",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Alexey <a-sham91@yandex.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.2"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0"
+  }
+}
